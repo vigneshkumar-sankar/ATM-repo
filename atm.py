@@ -104,7 +104,7 @@ class ATM:
                 self.save_accounts()
                 print("Logging out...")
                 self.current_account = None
-                break
+                break 
            
 #-------------------------main--------------------------
 
@@ -125,7 +125,7 @@ while True:
         print("Exiting...")
         break
     else:
-        print("Invalid option. Please try again.")
+        print("Invalid option..")
 
 #---- End of Code ---
 
